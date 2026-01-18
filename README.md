@@ -6,7 +6,7 @@ My collection of Geometry Dash mods for [Geode](https://geode-sdk.org/).
 
 | Mod | Description | Version | Status |
 |-----|-------------|---------|--------|
-| [Show More Game Versions](./Show-More-Game-Versions) | Display detailed game, system, and mod info with advanced customization | v1.0.0 | ✅ Published |
+| [Show More Game Versions](./Show-More-Game-Versions) | Display detailed game, system, and mod info with advanced customization | v1.0.0 | ⏳ Pending |
 
 ## Installation
 
