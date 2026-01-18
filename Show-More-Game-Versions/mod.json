@@ -12,7 +12,7 @@
   "description": "Display detailed game, system, and mod information on the main menu with extensive customization options",
   "developers": ["Mifu"],
   "links": {
-    "source": "https://github.com/Mifu999/Geode-Mods/Show-More-Game-Versions",
+    "source": "https://github.com/Mifu999/Geode-Mods/tree/main/Show-More-Game-Versions",
     "homepage": "https://github.com/Mifu999/Geode-Mods"
   },
   "tags": ["universal", "enhancement", "interface", "utility", "customization"],
@@ -138,4 +138,5 @@
       "default": false
     }
   }
+
 }
