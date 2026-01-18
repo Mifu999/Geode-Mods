@@ -26,4 +26,11 @@ A comprehensive Geometry Dash mod that displays detailed game, system, and mod i
 - **Display Format** - Single line or multi-line layout
 - **Toggle Individual Items** - Show or hide any information piece
 
+## Credits
+
+- **Developer**: Mifu
+- **Original Mod**: [Show Client Versions](https://github.com/NeoNyaa/Geode-ShowClientVersions) by [NeoNyaa](https://github.com/NeoNyaa)
+
+This mod is an enhanced version built upon the foundation of the original "Show Client Versions" mod. If you prefer a simpler, lightweight version, check out [NeoNyaa's original mod](https://github.com/NeoNyaa/Geode-ShowClientVersions)!
+
 <img src="logo.png" alt="the mod's logo" />
