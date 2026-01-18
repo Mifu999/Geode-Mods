@@ -23,4 +23,11 @@ This mod offers extensive customization options:
 - **Flexible Layout**: Display information in a single line or multiple lines
 - **Selective Display**: Toggle each information piece individually
 
+
 All system information features are optional and disabled by default, allowing you to choose exactly what you want to see.
+
+## Based on the Original
+
+This mod is inspired by and based on **[Show Client Versions](https://github.com/NeoNyaa/Geode-ShowClientVersions)** by **[NeoNyaa](https://github.com/NeoNyaa)**.
+
+If you prefer a simpler version with just the core features, check out the original mod!
