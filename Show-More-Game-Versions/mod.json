@@ -1,0 +1,141 @@
+{
+  "geode": "4.10.0",
+  "gd": {
+    "win": "2.2074",
+    "android": "2.2074",
+    "mac": "2.2074",
+    "ios": "2.2074"
+  },
+  "id": "mifu.showmoregameversion",
+  "name": "Show More Client Versions",
+  "version": "v1.0.0",
+  "description": "Display detailed game, system, and mod information on the main menu with extensive customization options",
+  "developers": ["Mifu"],
+  "links": {
+    "source": "https://github.com/Mifu999/Geode-Mods/Show-More-Game-Versions",
+    "homepage": "https://github.com/Mifu999/Geode-Mods"
+  },
+  "tags": ["universal", "enhancement", "interface", "utility", "customization"],
+  "settings": {
+    "conf-showGDVersion": {
+      "type": "bool",
+      "name": "Show GD Version",
+      "default": true
+    },
+    "conf-showGeodeVersion": {
+      "type": "bool",
+      "name": "Show Geode Version",
+      "default": true
+    },
+    "conf-showCocos2dVersion": {
+      "type": "bool",
+      "name": "Show Cocos2d Version",
+      "default": true
+    },
+    "conf-showOSVersion": {
+      "type": "bool",
+      "name": "Show Operating System",
+      "description": "Display the operating system (Windows, macOS, Android, iOS, Linux)",
+      "default": false
+    },
+    "conf-showArchitecture": {
+      "type": "bool",
+      "name": "Show CPU Architecture",
+      "description": "Display the CPU architecture (x64, x86, ARM64, ARM32)",
+      "default": false
+    },
+    "conf-showModCount": {
+      "type": "bool",
+      "name": "Show Mod Statistics",
+      "description": "Display detailed mod statistics (enabled, disabled, total)",
+      "default": false
+    },
+    "conf-versionsOnNewLines": {
+      "type": "bool",
+      "name": "One Line Per Version",
+      "description": "Show each version on its own line rather than on one single line",
+      "default": true
+    },
+    "conf-versionsPosition": {
+      "type": "string",
+      "name": "Versions Position",
+      "description": "Set the position of the versions on the main menu",
+      "default": "Top Right",
+      "one-of": ["Top Left", "Top Right", "Bottom Left", "Bottom Right", "Custom"]
+    },
+    "conf-customPosX": {
+      "type": "float",
+      "name": "Custom Position X",
+      "description": "X coordinate for custom position (only used when 'Custom' is selected)",
+      "default": 100,
+      "min": 0,
+      "max": 1920,
+      "control": {
+        "arrows": true,
+        "arrow-step": 1,
+        "big-arrows": true,
+        "big-arrow-step": 10,
+        "slider": true,
+        "slider-step": 5,
+        "input": true
+      }
+    },
+    "conf-customPosY": {
+      "type": "float",
+      "name": "Custom Position Y",
+      "description": "Y coordinate for custom position (only used when 'Custom' is selected)",
+      "default": 100,
+      "min": 0,
+      "max": 1080,
+      "control": {
+        "arrows": true,
+        "arrow-step": 1,
+        "big-arrows": true,
+        "big-arrow-step": 10,
+        "slider": true,
+        "slider-step": 5,
+        "input": true
+      }
+    },
+    "conf-versionsScale": {
+      "type": "float",
+      "name": "Versions Scale",
+      "description": "Set the size/scale of the version text",
+      "default": 0.25,
+      "min": 0.1,
+      "max": 1.0,
+      "control": {
+        "arrows": true,
+        "arrow-step": 0.01,
+        "big-arrows": true,
+        "big-arrow-step": 0.05,
+        "slider": true,
+        "slider-step": 0.05,
+        "input": true
+      }
+    },
+    "conf-versionsOpacity": {
+      "type": "float",
+      "name": "Versions Opacity",
+      "description": "Set the opacity of the versions on the main menu",
+      "default": 127.5,
+      "min": 0,
+      "max": 255,
+      "control": {
+        "arrows": true,
+        "arrow-step": 0.1,
+        "big-arrows": true,
+        "big-arrow-step": 1,
+        "slider": true,
+        "slider-step": 5,
+        "input": true
+      }
+    },
+    "conf-debugLoggingEnabled": {
+      "type": "bool",
+      "name": "Debug Logging",
+      "description": "Enable detailed logging for troubleshooting. Logging must be set to info in Geode settings.",
+      "default": false
+    }
+  }
+}
