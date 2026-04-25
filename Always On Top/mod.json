@@ -1,0 +1,41 @@
+{
+    "geode": "5.6.1",
+    "gd": {
+        "win": "2.2081"
+    },
+    "id": "mifu.always-on-top",
+    "name": "Always On Top",
+    "version": "v1.0.0",
+    "developer": "Mifuu",
+    "description": "Adds a toggle button on the main menu to keep the Geometry Dash window always on top of other windows.",
+    "tags": ["utility", "interface", "customization"],
+    "platforms": ["win"],
+    "settings": {
+        "enabled-at-startup": {
+            "type": "bool",
+            "default": false,
+            "name": "Enable at startup",
+            "description": "Automatically enable Always On Top every time Geometry Dash is launched."
+        },
+        "show-notifications": {
+            "type": "bool",
+            "default": true,
+            "name": "Show notifications",
+            "description": "Display a small notification whenever Always On Top is toggled."
+        },
+        "remember-state": {
+            "type": "bool",
+            "default": true,
+            "name": "Remember last state",
+            "description": "Restore the last Always On Top state when the game restarts. Overridden by 'Enable at startup' when that option is on."
+        }
+    },
+    "resources": {
+        "sprites": [
+            "resources/pin-icon.png"
+        ]
+    },
+    "dependencies": {
+        "geode.node-ids": ">=v1.19.0"
+    }
+}
